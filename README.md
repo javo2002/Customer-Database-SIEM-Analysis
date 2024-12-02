@@ -1,4 +1,4 @@
-# Koda Customer Database Analysis
+# Real-World Customer Database Analysis
 
 This project demonstrates how to manage customer data using a SQLite3 database and analyze it using Splunk's powerful indexing, reporting, and visualization tools. The project is designed to simulate real-world data handling and monitoring for a fictitious company, Koda.
 
