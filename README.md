@@ -4,6 +4,13 @@ This project focuses on securing the **SQLite3 database** for **Koda Tech**, a f
 
 The goal of this project is to assess and enhance the security of a customer database. As a **Splunk Analyst**, the focus will be on collecting, visualizing, and analyzing database logs to ensure the integrity, security, and performance of the system. This project will identify vulnerabilities such as **SQL injection risks**, **insecure data storage**, and **unauthorized access attempts**. It will also highlight potential operational failures, including **query performance issues**, **data corruption risks**, and **system errors**.
 
+## Project Architecture Diagram
+
+Below is the **logical architecture diagram** for the project, showcasing how customer data flows through the system and is processed by the database and Splunk for analysis.
+
+![Logical Architecture Diagram](<img width="619" alt="SQLProject" src="https://github.com/user-attachments/assets/75ed609d-9a01-4443-a161-76e674a05584">
+)
+
 ### Features
 - **Four-tier SQLite Database:** Manages customer data and assigns promotional discounts based on tier capacity.
 - **Splunk Integration:** Logs customer data transactions and sends them to Splunk for real-time indexing, visualization, and alerting.
@@ -24,6 +31,10 @@ The goal of this project is to assess and enhance the security of a customer dat
 3. **Splunk Integration:** Forward database logs to Splunk for real-time monitoring, reporting, and visualization.
 4. **Security Analysis:** Identify potential vulnerabilities such as SQL injections, insecure data handling, and unauthorized access.
 5. **Performance Monitoring:** Identify operational issues, such as query inefficiencies and potential risks of data corruption.
+
+# Koda Tech - SQLite3 Database Security Project
+
+
 
 ## How to Use
 1. **Clone the Repository:**
