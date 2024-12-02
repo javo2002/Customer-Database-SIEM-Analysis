@@ -8,8 +8,8 @@ The goal of this project is to assess and enhance the security of a customer dat
 
 Below is the **logical architecture diagram** for the project, showcasing how customer data flows through the system and is processed by the database and Splunk for analysis.
 
-![Logical Architecture Diagram](<img width="619" alt="SQLProject" src="https://github.com/user-attachments/assets/75ed609d-9a01-4443-a161-76e674a05584">
-)
+![Logical Architecture Diagram](./diagrams/logical_diagram.png)
+
 
 ### Features
 - **Four-tier SQLite Database:** Manages customer data and assigns promotional discounts based on tier capacity.
