@@ -1,12 +1,14 @@
-# Real-World Customer Database Analysis
+# Koda Tech - SQLite3 Database Security Project
 
-This project demonstrates how to manage customer data using a SQLite3 database and analyze it using Splunk's powerful indexing, reporting, and visualization tools. The project is designed to simulate real-world data handling and monitoring for a fictitious company, Koda.
+This project focuses on securing the **SQLite3 database** for **Koda Tech**, a fictitious e-commerce company that I made up, and specializes in selling electronic devices. Koda Tech is preparing for the launch of its website and expects a significant customer sign-up rate for promotional discounts. The customer discount system is based on a **4-tier structure**, with the first three tiers offering discounts to up to 50 customers each, and the fourth tier being unlimited but without any discounts.
 
-## Features
-- **Four-tier SQLite Database:** Organizes and processes customer data dynamically.
-- **Real-time Simulation:** Batch data insertion with delays to mimic real-time operations.
-- **Splunk Integration:** Logs forwarded to Splunk for indexing, visualization, and alerting.
-- **Security Insights:** Analysis of database vulnerabilities and insights into incident response.
+The goal of this project is to assess and enhance the security of a customer database. As a **Splunk Analyst**, the focus will be on collecting, visualizing, and analyzing database logs to ensure the integrity, security, and performance of the system. This project will identify vulnerabilities such as **SQL injection risks**, **insecure data storage**, and **unauthorized access attempts**. It will also highlight potential operational failures, including **query performance issues**, **data corruption risks**, and **system errors**.
+
+### Features
+- **Four-tier SQLite Database:** Manages customer data and assigns promotional discounts based on tier capacity.
+- **Splunk Integration:** Logs customer data transactions and sends them to Splunk for real-time indexing, visualization, and alerting.
+- **Security Focus:** Analyzes the database for potential security risks and operational failures.
+- **Operational Optimization:** Suggests improvements for database performance, data integrity, and system stability.
 
 ## Repository Structure
 - **`src/`**: Contains Python scripts for database and Splunk operations.
@@ -17,10 +19,11 @@ This project demonstrates how to manage customer data using a SQLite3 database a
 - **`dashboards/`**: Example configurations for Splunk dashboards.
 
 ## Project Objectives
-1. Design and implement a four-tier SQLite database for customer data.
-2. Simulate real-time data insertion and logging.
-3. Forward logs to Splunk for analysis and visualization.
-4. Utilize Splunk's features for reporting and alerting.
+1. **Database Design and Implementation:** Create a four-tier SQLite database to manage customer data and assign discounts based on tiers.
+2. **Simulate Data Insertion and Logging:** Automate customer data insertion and log all actions to the database for security analysis.
+3. **Splunk Integration:** Forward database logs to Splunk for real-time monitoring, reporting, and visualization.
+4. **Security Analysis:** Identify potential vulnerabilities such as SQL injections, insecure data handling, and unauthorized access.
+5. **Performance Monitoring:** Identify operational issues, such as query inefficiencies and potential risks of data corruption.
 
 ## How to Use
 1. **Clone the Repository:**
