@@ -6,7 +6,7 @@ This folder contains visual outputs and reports for Splunk dashboards, providing
 
 ## Files
 
-### 1. `report.png`  
+### 1. `Report`  
 **Description**:  
 This file contains the *Locked Database Report*, displaying failed customer attempts to access the database due to locks. It includes columns for customer names, timestamps, and failure messages.
 
@@ -18,7 +18,7 @@ It helps monitor database locking issues and identify recurring patterns over a 
 
 ---
 
-### 2. `splunk.png`  
+### 2. `Message Analysis and Geographic Distribution`  
 **Description**:  
 This file includes a detailed Splunk dashboard that displays:
 - **Message Frequency Bar Chart**: Highlights message occurrences (e.g., errors or success logs).  
