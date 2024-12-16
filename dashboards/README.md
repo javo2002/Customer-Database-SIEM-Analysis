@@ -1,7 +1,3 @@
-Here’s the updated **README** file with the images embedded using the `<img>` tag:
-
----
-
 # Dashboards Subdirectory
 
 This folder contains visual outputs and reports for Splunk dashboards, providing insights and monitoring capabilities. Below is the description for each file, with visuals included.
@@ -55,7 +51,7 @@ These files serve as examples or outputs of a Splunk monitoring project. They ca
 2. Identify system issues (e.g., database locks).  
 3. Visualize customer data and behavior trends.  
 
-For more details, ensure you have the Splunk environment configured and data inputs properly ingested.
+Tip: Ensure you have the Splunk environment configured and data inputs properly ingested.
 
 ---
 
@@ -64,7 +60,3 @@ To enhance these dashboards:
 - Link real-time alerts for database lock events.  
 - Implement data cleaning to reduce null values.  
 - Add geographic insights for better state-based analysis.
-
----
-
-Let me know if you need further updates or additional formatting!
