@@ -19,9 +19,7 @@ Below is the **logical architecture diagram** for the project, showcasing how cu
 
 ## Repository Structure
 - **`src/`**: Contains Python scripts for database and Splunk operations.
-  - `database/`: Database setup, insertion logic, and logs.
   - `splunk/`: Configuration and examples for integrating with Splunk.
-- **`reports/`**: Documentation of project outcomes and data insights.
 - **`diagrams/`**: Visual representation of the project architecture.
 - **`dashboards/`**: Example configurations for Splunk dashboards.
 
