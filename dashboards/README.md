@@ -33,15 +33,15 @@ This dashboard aids in identifying trends, null value issues, and geographic cus
 
 ---
 
-### 3. `splunk_1.png`  
+### 3. `Database View`  
 **Description**:  
-A continuation or secondary Splunk visual similar to `splunk.png` with more detailed chart breakdowns.
+A complete view of how the data is being processed into Splunk.
 
 **Preview**:  
 <img src="./splunk_1.png" alt="Splunk Dashboard 1" width="600">
 
 **Purpose**:  
-Provides additional clarity into specific metrics or logs for troubleshooting and monitoring purposes.
+Provides clarity on how the data is being analytically parsed for dashboard creations
 
 ---
 
