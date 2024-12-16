@@ -1,4 +1,4 @@
-# Dashboards Subdirectory
+# Dashboards
 
 This folder contains visual outputs and reports for Splunk dashboards, providing insights and monitoring capabilities. Below is the description for each file, with visuals included.
 
