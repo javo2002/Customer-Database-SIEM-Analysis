@@ -31,13 +31,3 @@ Below is the **logical architecture diagram** for the project, showcasing how cu
 3. **Splunk Integration:** Forward database logs to Splunk for real-time monitoring, reporting, and visualization.
 4. **Security Analysis:** Identify potential vulnerabilities such as SQL injections, insecure data handling, and unauthorized access.
 5. **Performance Monitoring:** Identify operational issues, such as query inefficiencies and potential risks of data corruption.
-
-# Koda Tech - SQLite3 Database Security Project
-
-
-
-## How to Use
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/yourusername/Koda-Customer-Database-Analysis.git
-   cd Koda-Customer-Database-Analysis
